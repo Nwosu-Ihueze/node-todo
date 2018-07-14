@@ -1,8 +1,8 @@
-# Todolist CLI Using Node.js
+# To-Do List CLI Using Node.js
 
-<p>A Simple TodoList CLI Build Using Node.js - Manage your Daily Tasks.<p>
+<p>A Simple To-Do List CLI Build Using Node.js - Manage your Daily Tasks.<p>
 
-> Credits to v3rse's Todo CLI - https://github.com/v3rse/done I Clone and Modified this script for Learning and personal Usage
+> Credits to v3rse's To-Do List CLI - https://github.com/v3rse/done I Clone and Modified this script for Learning and personal Usage
 
 ## About
 
