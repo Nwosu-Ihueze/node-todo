@@ -1,0 +1,30 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "To-do Task list",
+  "main": "tasks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mytask": "tasks.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskian/node-todo.git"
+  },
+  "keywords": [
+    "tasks",
+    "todo",
+    "todoist"
+  ],
+  "author": "Santhosh veer",
+  "license": "MIT",
+  "engines": {
+    "node": "^6.9.0 || ^8.9.0"
+  },
+  "dependencies": {
+    "@v3rse/chroma": "^1.1.0",
+    "moment": "^2.22.2"
+  }
+}
