@@ -13,7 +13,7 @@ All your Completed and Uncompleted tasks are Stored in `.database.json`
 ```
 git clone https://github.com/mskian/node-todo.git
 npm install
-sudo npm link
+npm link
 ```
 
 ## Usage
