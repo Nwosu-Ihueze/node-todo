@@ -80,7 +80,8 @@ function check(task) {
 		);
 
 		//remove from uncompleted
-		data.uncompleted.splice(task, task + 1);
+		//data.uncompleted.splice(task, task + 1);
+		data.uncompleted.splice(task, 1);
 
 		//set data
 		setData(data);
