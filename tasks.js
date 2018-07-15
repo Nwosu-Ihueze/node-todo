@@ -100,7 +100,9 @@ function del(task) {
 
 	if(data.uncompleted[task]){
 		//delete item
-		data.uncompleted.splice(task, task + 0);
+		//data.uncompleted.splice(task, task + 1);
+		//https://stackoverflow.com/a/21660092
+		data.uncompleted.splice(task, 1);
 
 		//set data
 		setData(data);
