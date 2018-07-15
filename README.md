@@ -2,7 +2,7 @@
 
 <p>A Simple To-Do List CLI Build Using Node.js - Manage your Daily Tasks.<p>
 
-> Credits to v3rse's To-Do List CLI - https://github.com/v3rse/done I Clone and Modified this script for Learning and personal Usage
+> Credits to v3rse's To-Do List CLI - https://github.com/v3rse/done - I Clone and Modified this script for Learning and personal Usage.
 
 ## About
 
@@ -19,9 +19,12 @@ npm link
 ## Usage
 
 ```
+
 Usage:
  
 mytask [command]
+ 
+Examples:
  
 mytask add "My First Task" 
 mytask list 
@@ -31,6 +34,7 @@ mytask check 1 --complete task
 mytask clear --Clear all Pending task from the list 
 mytask clear done --Clear all completed task from the list 
 mytask clear all --Clear all completed task and pending from the list 
-mytask delete --Remove uncompleted task from the list. 
+mytask delete 1 --Remove uncompleted task from the list. 
 mytask help
+
 ```

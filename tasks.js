@@ -44,7 +44,7 @@ function setData(data) {
 
 //Displays usage
 function usage() {
-	console.log(chroma.lyellow('Usage:\n \nmytask [command]\n \nmytask add "My First Task" \nmytask list \nmytask list all \nmytask list done \nmytask check 1 --complete task \nmytask clear --Clear all Pending task from the list \nmytask clear done --Clear all completed task from the list \nmytask clear all --Clear all completed task and pending from the list \nmytask delete --Remove uncompleted task from the list. \nmytask help'));
+	console.log(chroma.lyellow('Usage:\n \nmytask [command]\n \nExamples:\n \nmytask add "My First Task" \nmytask list \nmytask list all \nmytask list done \nmytask check 1 --complete task \nmytask clear --Clear all Pending task from the list \nmytask clear done --Clear all completed task from the list \nmytask clear all --Clear all completed task and pending from the list \nmytask delete 1 --Remove uncompleted task from the list. \nmytask help'));
 }
 
 //Adds a task
