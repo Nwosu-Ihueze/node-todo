@@ -1,2 +1,12 @@
+# Logs
 .database.json
-/node_modules
+package-lock.json
+
+# Dependency directory
+node_modules
+
+# Optional npm cache directory
+.npm
+
+# Editors
+.vscode/*
